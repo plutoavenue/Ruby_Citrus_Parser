@@ -1,5 +1,7 @@
 require 'open-uri'
 require 'Nokogiri'
+require 'json'
+require 'csv'
 
 class MainApplication
   attr_accessor :url, :csvoutput, :jsonoutput, :condition
